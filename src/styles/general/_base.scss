@@ -1,0 +1,30 @@
+$breakpoints: (
+	'xsmall': 320px,
+	'small':  767px,
+	'medium': 992px,
+	'large':  1200px
+) !default;
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6, ul {
+	padding: 0;
+	margin: 0;
+}
+a {
+	&:hover {
+		text-decoration: none;
+	}
+	&:focus {
+		outline: none;
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
